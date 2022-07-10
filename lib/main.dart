@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:fancy_switch/fancy_switch.dart';
 import './providers/global_provider.dart';
-import './widgets/fancy_switch.dart';
 
 void main() {
   runApp(
@@ -52,8 +52,8 @@ class _MyHomePageState extends State<MyHomePage> {
           height: 100,
           activeModeBackgroundImage: 'assets/images/dark_bg.png',
           inactiveModeBackgroundImage: 'assets/images/light_bg.png',
-          inactiveThumbColor: Colors.yellowAccent,
-          activeThumbColor: Colors.grey,
+          activeThumbImage: Image.asset('assets/images/moon.png'),
+          inactiveThumbImage: Image.asset('assets/images/sun.png'),
         ),
       ),
     );
