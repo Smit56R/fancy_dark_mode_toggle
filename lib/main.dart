@@ -45,15 +45,48 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: const Text('Demo'),
       ),
-      body: Center(
-        child: FancySwitch(
-          value: provider.darkMode,
-          onChanged: provider.toggleDarkMode,
-          height: 100,
-          activeModeBackgroundImage: 'assets/images/dark_bg.png',
-          inactiveModeBackgroundImage: 'assets/images/light_bg.png',
-          activeThumbImage: Image.asset('assets/images/moon.png'),
-          inactiveThumbImage: Image.asset('assets/images/sun.png'),
+      body: SizedBox(
+        width: double.infinity,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            FancySwitch(
+              value: provider.darkMode,
+              onChanged: provider.toggleDarkMode,
+              height: 100,
+              activeModeBackgroundImage: 'assets/images/dark_bg.png',
+              inactiveModeBackgroundImage: 'assets/images/light_bg.png',
+              activeThumbImage: Image.asset('assets/images/moon.png'),
+              inactiveThumbImage: Image.asset('assets/images/sun.png'),
+              activeThumbColor: Colors.purple,
+              inactiveThumbColor: Colors.orange,
+            ),
+            FancySwitch(
+              value: provider.darkMode,
+              onChanged: provider.toggleDarkMode,
+              height: 100,
+              activeModeBackgroundImage: 'assets/images/dark_bg.png',
+              inactiveModeBackgroundImage: 'assets/images/light_bg.png',
+              activeThumbImage: Image.asset('assets/images/moon.png'),
+              inactiveThumbImage: Image.asset('assets/images/sun.png'),
+            ),
+            FancySwitch(
+              value: provider.darkMode,
+              onChanged: provider.toggleDarkMode,
+              height: 100,
+              activeModeBackgroundImage: 'assets/images/dark_bg.png',
+              inactiveModeBackgroundImage: 'assets/images/light_bg.png',
+              activeThumbColor: Colors.purple,
+              inactiveThumbColor: Colors.orange,
+            ),
+            FancySwitch(
+              value: provider.darkMode,
+              onChanged: provider.toggleDarkMode,
+              height: 100,
+              activeModeBackgroundImage: 'assets/images/dark_bg.png',
+              inactiveModeBackgroundImage: 'assets/images/light_bg.png',
+            ),
+          ],
         ),
       ),
     );

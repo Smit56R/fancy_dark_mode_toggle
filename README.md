@@ -4,7 +4,7 @@ An example project for this [package](https://pub.dev/packages/fancy_switch). It
 
 ## Snapshots
 
-<img alt="fancy switch sample 1" src="assets/images/screenshots/ss_1.gif" width="175"> <img alt="fancy switch sample 2" src="assets/images/screenshots/ss_2.gif" width="175"> <img alt="fancy switch sample 3" src="assets/images/screenshots/ss_3.gif" width="175"> <img alt="fancy switch sample 4" src="assets/images/screenshots/ss_1.gif" width="175">
+<img alt="All fancy switches" src="assets/images/screenshots/all_fancy_switches.gif" width="175">
 
 ## Project dependencies
 
