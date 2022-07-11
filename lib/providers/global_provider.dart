@@ -5,8 +5,8 @@ class GlobalProvider with ChangeNotifier {
 
   bool get darkMode => _darkMode;
 
-  void toggleDarkMode() {
-    _darkMode = !_darkMode;
+  void toggleDarkMode(bool value) {
+    _darkMode = value;
     notifyListeners();
   }
 }
